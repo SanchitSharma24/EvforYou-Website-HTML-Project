@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 35%;
+    border-radius: 50px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+}
+
+.nav1{
+    width: 60%;
+    align-items: center;
+    display: flex;
+
+}
+
+.nav1 li{
+    list-style: none;
+    padding: 26px 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav1 li:hover{
+    color: gray;
+}
+
+.nav1 li:active{
+    opacity: 80%;
+}
+
+.nav1 li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.nav1 li a:hover{
+    color: gray;
+
+}
+
+.nav1 li a:active{
+    opacity: 80%;
+}
+
+.rightnav{
+    text-align: right;
+    width: 50%;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba( 0,0,0,0.7) url(pic4.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.buttons{
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.buttons:active{
+    opacity: 80%;
+}
+
+.button-small{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.button-small:hover{
+    padding: 6px 10px;
+    vertical-align: middle;
+
+}
+
+.button-small:active{
+    opacity: 80%;
+}
+
+.textbig{
+    font-size: 40px;
+}
+
+.textsmall{
+    font-size: 20px;
+
+}
+
+.sectag{
+    font-weight: bold;
+}
+
+.subsectag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    padding: 13px 30px;
+    margin: 0px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: none;
+    color: black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    padding: 13px 30px;
+    margin: 0px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:active{
+    padding: 13px 30px;
+    margin: 0px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+
+}
+
+.about img{
+    height: auto;
+    width: 420px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.m{
+    width: 1200px;
+    max-width: 95%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: darkblue;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.about-text p{
+    color: gray;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    color: #fff;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+    background: rgba( 0,0,0,0.7) url(bgmevfoot.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.footer1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer2{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.footer2:nth-child(2), .footer2:nth-child(3){
+    flex-basis: 15%;
+}
+
+.footlogo{
+    width: 80px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.footer2 h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.footer2 ul li{
+    list-style: none;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.footer2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid gray;
+    margin: 20px auto;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.sechead2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
